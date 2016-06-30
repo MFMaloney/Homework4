@@ -1,0 +1,18 @@
+<h1>Register for Valkyrie</h1>
+<div class="text_background">
+<p>Choose a user name:</p>
+
+<%= form_tag('/confirmation') do %>
+ <%= text_field_tag(:username, '', placeholder: 'Enter user name here') %>
+
+<p>Enter your email addres:s</p>
+
+ <%= text_field_tag(:email, '', placeholder: 'Enter your email here') %>
+
+<p>Create a password:</p>
+ 
+ <%= password_field(:password, '', placeholder: 'Create your password') %><br>
+  <%= password_field(:password_confirmation, '', placeholder: 'Confirm password') %>
+ <%= submit_tag('Submit') %>
+<% end %>
+<div>

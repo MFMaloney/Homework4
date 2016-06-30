@@ -1,0 +1,169 @@
+/* was halfway through the project before realizing i could be reusing the same .class for my text background... :( */
+
+body{
+  	background: url("background.jpg");
+  	background-size: cover;
+	margin: 0;
+
+}
+.banner{
+	background-image: url("bdobanner.jpg");
+	background-repeat: no-repeat;
+	border: gold;
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+}
+.banner_center{
+	margin: 0 auto;
+	width: 100%;
+}
+.centerrl{
+	margin: 0 auto;
+	width: 20%;
+}
+nav ul li {
+	display: inline-block;
+	width:16%;
+	box-sizing: border-box;
+	list-style: none;
+}
+nav{
+	background-color: darkgrey;
+	padding: 3px;
+	font-size: 120%; 
+	border-radius: 10px;
+	border: solid gold 5px;
+}
+.open{
+	color: green;
+}
+.closed{
+	color: red;
+}
+
+.login{
+	float: right;
+}
+
+h1{
+	text-align: center;
+	color: darkred;
+}
+
+.intro{
+	background-color: darkgrey;
+	border-radius: 10px;
+	border: solid gold 5px;
+	margin-bottom: 10px;
+}
+
+.recruitment{
+	background-color: darkgrey;
+	border-radius: 10px;
+	border: solid gold 5px;
+	margin-bottom: 10px;
+}
+.recruitlist{
+	background-color: darkgrey;
+	border-radius: 10px;
+	width: 200px;
+	border: solid gold 5px;
+}
+.recruitlist h3{
+	text-align: center;
+}
+.ssotw{
+	margin-bottom: 50px;
+	color: darkred;
+}
+.ssotw img{
+	box-sizing: border-box;
+	width: 100%;
+	border: solid gold 5px;
+}
+.ssotw h2{
+	text-align: center;
+	color: darkred;
+}
+.centerss{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.col-md-4 img{
+	width: 100%
+}
+
+.col-md-4{
+	border: solid gold 5px;
+	margin-bottom: 10px;
+}
+h2{
+	text-align: center;
+	color: darkred;
+}
+.guide_intro{
+	font-size: 32px;
+	color: darkred;
+	font-style: bold;
+	text-align: center;
+}
+.text_background{
+	background-color: darkgrey;
+	border-radius: 10px;
+	border: solid gold 5px;
+	margin-bottom: 10px;
+	opacity: .5;
+}
+.text_background_float{
+	background-color: darkgrey;
+	border-radius: 10px;
+	border: solid gold 5px;
+	margin-bottom: 10px;
+	float: left;
+	width: 47%;
+	margin:	10px;
+}
+
+
+.twitter{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.insta{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 10px;
+	margin: 5px:;
+}
+.facebook{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.text_background_float img{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+@media all and (max-width: 700px) {
+			.text_background{
+				width: 100%;
+				border: none;
+			}
+			.text_background_float{
+				width: 100%;
+				border: none;
+			}
+		}
+
